@@ -1,0 +1,19 @@
+remark goes here
+MASS
+
+BOND
+
+ANGLE
+ca-c3-c1   64.784     110.735   Calculated with empirical approach
+c1-c1-cx   56.500     177.990   same as c1-c1-c3
+c1-cx-hc   48.400     109.750   same as c1-c3-hc
+c1-cx-cx   64.500     111.590   same as c1-c3-c3
+
+DIHE
+
+IMPROPER
+
+NONBON
+
+
+
