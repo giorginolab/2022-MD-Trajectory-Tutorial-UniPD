@@ -2,8 +2,8 @@ source leaprc.protein.ff19SB
 source leaprc.gaff
 source leaprc.water.tip3p
 
-loadamberparams efz.frcmod
-loadoff efz.lib
+loadamberparams EFZ.frcmod
+loadoff EFZ.lib
 hivcompl = loadpdb hivcompl.pdb
 
 charge hivcompl

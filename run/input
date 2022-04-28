@@ -1,0 +1,10 @@
+parmfile hivcompl_AA.prmtop
+coordinates hivcompl_AA.pdb
+boxsize 134.005 134.005 134.005
+restart on
+barostat on
+barostatpressure 1
+thermostat on
+ 
+minimize 1000
+run 100000
