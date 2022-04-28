@@ -1,0 +1,19 @@
+source leaprc.protein.ff19SB
+source leaprc.gaff
+source leaprc.water.tip3p
+
+loadamberparams efz.frcmod
+loadoff efz.lib
+hivcompl = loadpdb hivcompl.pdb
+
+charge hivcompl
+
+addions hivcompl Cl- 2
+charge hivcompl
+
+solvatebox hivcompl TIP3PBOX 10 iso
+
+saveamberparm hivcompl hivcompl_AA.prmtop hivcompl_AA.rst7
+savepdb hivcompl hivcompl_AA.pdb
+quit
+
