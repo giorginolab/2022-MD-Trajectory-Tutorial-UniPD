@@ -7,4 +7,4 @@ barostatpressure 1
 thermostat on
  
 minimize 1000
-run 100000
+run 250000
